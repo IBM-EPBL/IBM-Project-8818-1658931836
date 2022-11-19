@@ -1,0 +1,104 @@
+body {
+    background: url(image.jpg) repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+}
+
+nav {
+    background-color: white;
+    top: 0;
+    left: 0%;
+    margin: 0;
+    /* padding: 2rem 0; */
+    width: calc(100% - 0%);
+    position: fixed;
+    transform: translate(0%, 0%);
+    box-shadow: rgba(0, 0, 0, 0.54) 0 0 8px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border-radius: 0 0 4rem 0; */
+    z-index: 2;
+    justify-content: space-between;
+
+}
+nav div{
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+}
+nav img{
+    width: 8rem;
+    height: 4rem;
+    /* border-radius: 10pc; */
+    display: flex;
+    justify-content: space-evenly;
+    transform: translate(50%,40%);
+}
+.navBars {
+    user-select: none;
+    color: azure;
+    text-decoration: none;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 4px;
+    border: none;
+    padding: 0.4rem;
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    background:linear-gradient(200deg,rgb(142, 82, 212),rgb(220, 185, 81));
+    margin: 2rem;
+}
+.navBars:hover{
+    cursor: pointer;
+}
+#h2{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: rgb(21, 1, 41);
+    background-color: rgb(255, 218, 216);
+    padding: 3rem;
+    border-radius:10px ;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.449) 0px 0px 8px 0px;
+    z-index: 1;
+   
+    
+}
+#h2>h2{
+    /* background-color: red; */
+    width: 30rem;
+}
+.header{
+    background-color: rgb(168, 96, 201);
+    display: flex;
+    text-align: center;
+    /* justify-content: space-evenly; */
+    flex-direction: row;
+    color: rgb(245, 240, 240);
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 4px;
+}
+.dash,.report,.story{
+    top: 200%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+#dashboard{
+    width:calc(100% 100%);
+}
+.report{
+    top: 400%;
+}
+.story{
+    top: 550%;
+}
